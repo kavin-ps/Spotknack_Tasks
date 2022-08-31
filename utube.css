@@ -1,0 +1,61 @@
+.navbar {
+    position: relative;
+  }
+  .navbar img {
+    position: absolute;
+    top: -59px;
+    left: -13px;
+    height: fit-content;
+    width: 12%;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  .sidenav {
+    height: 100%; 
+    width: 200px; 
+    position: fixed; 
+    z-index: 1;
+    top: 78px; 
+    left: 19px;
+    background-color:transparent; 
+    overflow-x: hidden; 
+    padding-top: 20px;
+    margin-bottom: 24px;
+  }
+  .sidenav a {
+    padding: 10px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 16px;
+    height: 5vh;
+    color:darkblue;
+    display: block;
+    font-family:Arial, Helvetica, sans-serif;
+  }
+  .sidenav a:hover {
+    color: black;
+  }
+  .main {
+    margin-left: 279px;
+    font-size: 28px;
+    padding: 0px 10px;
+    width:800px;
+  }
+  .url{
+    color: blue;
+  }
+  .head{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+  }
+  .content p{
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  .hd{
+    font-size: 15px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+  }
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
